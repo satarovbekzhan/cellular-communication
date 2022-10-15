@@ -18,7 +18,8 @@
 
 ```ps
 $ java --version
-
+```
+```
 java 11.0.11 2021-04-20 LTS
 Java(TM) SE Runtime Environment 18.9 (build 11.0.11+9-LTS-194)
 Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.11+9-LTS-194, mixed mode)
@@ -27,8 +28,19 @@ Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.11+9-LTS-194, mixed mode)
 Затем перейдите в корень проекта и запустите команду ниже:
 
 ```ps
-$ ./gradlew test
+$ ./gradlew clean build test
+```
+```
+> Task :test
 
-BUILD SUCCESSFUL in 853ms
-4 actionable tasks: 4 up-to-date
+MainTest > All data from the 'data.json' file is parsed correctly (at BeforeAll stage). PASSED
+
+MainTest > The total number of clients of the mobile operator totals 5. PASSED
+
+MainTest > The price of the tariff plan with the lowest subscription fee is 50 soms. PASSED
+
+MainTest > There is 2 tariff plans with the cost of Internet traffic less than 3 soms. PASSED
+
+BUILD SUCCESSFUL in 1s
+6 actionable tasks: 6 executed
 ```
