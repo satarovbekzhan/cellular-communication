@@ -1,0 +1,11 @@
+build/
+bin/
+
+.gradle/
+.idea/
+.fleet/
+
+*.class
+*.jar
+*.war
+*.ear
