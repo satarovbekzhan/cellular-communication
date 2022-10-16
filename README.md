@@ -51,5 +51,5 @@ BUILD SUCCESSFUL in 1s
 6 actionable tasks: 6 executed
 ```
 
-Реализацию тестов можно найти в файле [`res/test/java/MainTest.java`](https://github.com/satarovbekzhan/cellular-communication/blob/main/src/test/java/MainTest.java).
+Реализацию тестов можно найти в файле [`src/test/java/MainTest.java`](https://github.com/satarovbekzhan/cellular-communication/blob/main/src/test/java/MainTest.java).
 
